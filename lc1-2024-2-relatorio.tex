@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath,amsfonts}
+\usepackage{coqdoc}
+\usepackage{mathpartir}
+\usepackage{minibox}
+\usepackage{tabto,calc}
+
+% \Def\figurename{Figura}
+\def\refname{Refer\^{e}ncias}
+\def\bibname{Refer\^{e}ncias}
+
+\begin{document}
+\bibliographystyle{alpha}
+\begin{center}
+  \Large Título do Relatório \\ 
+  \normalsize \today \\ 
+  Coloque aqui o nome e matrícula dos participantes
+\end{center}
+
+\input{lc1_2024_2_projeto.tex}
+
+% Para gerar o relatório: 
+% 1.Em um terminal digite (no diretório que contém o arquivo Coq): coqdoc --latex --body-only -s lc1_2024_2_projeto.v 
+%  2. Em um terminal digite: pdflatex lc1-2024-2-relatorio.tex 
+%  3. Abra o arquivo lc1-2024-2-relatorio.pdf com o aplicativo de sua preferência.
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
